@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#F7F7F8];
+}
+
+@layer components {
+  .btn {
+    @apply bg-red-500;
+  }
+}
